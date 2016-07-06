@@ -8,6 +8,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("viewDidLoad() called")
+        view.accessibilityLabel = "view"
         view.backgroundColor = UIColor.randomColor()
     }
 
